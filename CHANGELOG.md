@@ -1,32 +1,22 @@
 # Changelog
 
-## v1.1.0 — 2026-11-06 — Proof-envelope hardening and correlated factor box
+## v1.2.0 — 2026-11-06 — Public documentation and reproducibility edition
 
-- Added *strict* full-certificate checks binding a claim to the graph, source,
-  target, path, claimed costs, and exact shortest-path inequalities.
-- Added canonical SHA-256 input fingerprint (not authentication/signing).
-- Added independently reproducible attacks on malformed, mismatched,
-  misleading, and mutated proof objects.
-- Added exact correlated-factor box radius and regret by exhaustive path
-  enumeration; explicit uncertainty-factor witnesses for failed claims.
-- Added tests of correlated algebra against all factor-box corners.
-- Added security scope, MIT licensing text, metadata, receipts, examples,
-  and explicit prior-art/novelty limitations.
-- Intentionally **not** adopted: mean-active-vs-mean-inactive "radius"
-  heuristic or a dimension-only "forgery" check. Neither is a valid proof.
-- Intentionally **not** asserted: one common worst-case cost scenario under
-  arbitrary correlated uncertainties or a polynomial-time solution to
-  general robust routing.
+- Reworked the README for external engineers, students and mathematical researchers, leading with the practical routing problem, a worked example and executable commands.
+- Added `USAGE.md`, `VALIDATION.md` and `PUBLICATION.md` with precise file formats, verification instructions, a citation and immutable public commit references.
+- Corrected stale prepublication language in the README, citation file and security notes; public authorship is attributed to Shawn Calvin Snelling, AXEZENT AI Research.
+- Strengthened the prior-art review with full citations and clear distinctions between mathematical foundations and this implementation.
+- Clarified the MIT License's meaning, exact model boundaries, and the scope of CI/adversarial test evidence.
+- No mathematical theorem or solver behavior was changed in this documentation-focused revision.
 
-## v1.0.0 — 2026-11-06 — Baseline
+## v1.1.0 — 2026-11-06 — Proof-envelope hardening and correlated-factor box
 
-- Five self-contained DAG routing and gauge invariance theorem statements.
-- Exact independent interval box robust verification and route witnesses.
-- Exact independent symmetric perturbation radius and finite tests.
+- Added strict certificate checks binding graph, source, target, route and costs to exact shortest-path inequalities.
+- Added an SHA-256 content fingerprint (not a signature) and 1,024 seeded corruption tests.
+- Added correlated-factor-box regret and radius by exhaustive path enumeration, with explicit negative witnesses and independent small-case tests.
+- Published the complete source, tests, examples, documentation and Python CI workflow to GitHub on November 6, 2026.
 
-### First public GitHub publication (2026-11-06)
+## v1.0.0 — 2026-11-06 — Initial proof and verifier package
 
-- Standardized the module filename spelling from `gagerail.py` to `gaugerail.py`; updated imports and commands.
-- Aligned README, CITATION, release checklist, and scope ledger with the authorized GitHub repository.
-- Added GitHub Actions Python regression test workflow.
-- Rebuilt all reproducibility hashes after final source and metadata edits.
+- Five self-contained results for finite DAG routing and gauge transformations.
+- Exact independent-interval robustness checks, short certificates, counterexamples and stability radii.

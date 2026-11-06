@@ -21,7 +21,7 @@
   "false_acceptances": 0,
   "invalid_certificates_rejected": 1024,
   "limits": "Chosen attack mutations only; not a claim of unforgeability, authenticity, or enterprise security certification",
-  "name": "AXEZENT GaugeRail-001 v1.1.0 adversarial stress",
+  "name": "AXEZENT GaugeRail-001 v1.2.0 adversarial stress",
   "seed": 20261106,
   "unexpected_acceptances": [],
   "valid_certificate_accepted": true

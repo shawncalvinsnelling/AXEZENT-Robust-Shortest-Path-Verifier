@@ -1,19 +1,28 @@
 {
-  "author_project": "Shawn Calvin Snelling / AXEZENT AI Research",
-  "limitation": "This is neither certified secure software nor a new established research discovery. MIT license included for author approval.",
-  "name": "AXEZENT GaugeRail-001 \u2014 hardened research release candidate",
-  "prepared": "2026-11-06",
+  "author": "Shawn Calvin Snelling",
+  "current_version": "1.2.0",
+  "implemented_scope": [
+    "Independent-interval strong route optimality with exact potential certificates",
+    "Potential-gradient gauge classification with witnesses",
+    "Exact independent symmetric robustness radius by path enumeration",
+    "Exact correlated symmetric factor-box regret/radius by path enumeration"
+  ],
+  "license": "MIT",
+  "limitations": [
+    "Model requires finite DAG with trusted rational input",
+    "Enumeration-based radii may be exponential",
+    "A content fingerprint is not authentication",
+    "Prior-art overlap; no first-invention or external peer-review claim"
+  ],
+  "organization": "AXEZENT AI Research",
+  "project": "AXEZENT Robust Shortest Path Verifier",
+  "proof_scope": "Six proven finite-DAG statements under specified interval/potential/factor-box assumptions",
+  "published_date": "2026-11-06",
   "repository": "https://github.com/shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier",
-  "scope": "Independent interval DAG proof certificates; correlated symmetric factor-box sharp radius via exhaustive path enumeration",
-  "status": {
-    "adversarial_mutations": "REJECTED_1024_OF_1024_CHOSEN_CASES",
-    "commercial_value": "NOT_ESTABLISHED",
-    "correlated_random_cases": "EXHAUSTIVE_BOX_CORNERS_180_SMALL_CASES",
-    "external_referee": "NOT_REVIEWED",
-    "novelty": "NOT_ESTABLISHED",
-    "public_git_push": "AUTHORIZED_FOR_PUBLICATION",
-    "six_propositions": "COMPLETE_TEXT_PROOFS_UNDER_STATED_ASSUMPTIONS",
-    "test_groups": "PASS_20_OF_20"
-  },
-  "version": "1.1.0"
+  "research_name": "GaugeRail-001",
+  "validation": {
+    "correlated_random_trials": "180 finite randomized cases",
+    "mutation_stress": "1024 predetermined corrupted envelopes rejected",
+    "tests": "20 named unit test cases"
+  }
 }

@@ -65,7 +65,7 @@ for i in range(1024):
     counts[mode]+=1
     if not attempt(mode,i): failures.append({'attempt':i,'mutation':mode})
 receipt={
- 'name':'AXEZENT GaugeRail-001 v1.1.0 adversarial stress',
+ 'name':'AXEZENT GaugeRail-001 v1.2.0 adversarial stress',
  'seed':20261106,
  'valid_certificate_accepted':True,
  'attacks_submitted':sum(counts.values()),

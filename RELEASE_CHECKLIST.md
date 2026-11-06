@@ -1,25 +1,9 @@
-# GitHub release checklist
+# Public release status
 
-- [x] State hypotheses in full (finite DAG, identifiable parallel edges, intervals independently variable, correlated part exactly gradient).
-- [x] Include explicit constructive proofs, not computational extrapolation.
-- [x] Produce exact rational executable checker.
-- [x] Verify 250 seeded random small DAGs by exhaustive endpoint enumeration.
-- [x] Test gauge invariance, iff classification, subdivision, and attempted forged certificates.
-- [x] Include negative-case witness and exact stability radius example.
-- [x] Add exact correlated-factor-box radius with explicit complexity cap, proof, and witness.
-- [x] Reject forged candidate/graph/cost metadata and 1,024 seeded invalid certificates.
-- [ ] Obtain independent security review before any production or critical deployment.
-- [x] Cite prior shortest-path potentials and robust path literature.
-- [ ] Obtain independent mathematical referee / formal proof-assistant audit (optional but recommended for strong publication claims).
-- [ ] Exhaustively compare intended novelty to specialized graph-optimization literature before asserting priority.
-- [x] Add an MIT license draft, citation metadata, adversarial tests, and security-scope document.
-- [x] Author authorized MIT license and repository name for public distribution.
-- [x] Public GitHub repository publication explicitly requested by the author.
+**Software version:** 1.2.0 · **Author:** Shawn Calvin Snelling · **Initial public code date:** November 6, 2026.
 
-**Actual GitHub repository:** `shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier`
+GaugeRail publishes an executable exact-rational verifier, six scoped mathematical statements with self-contained proofs, an input/output guide, worked examples, independent certificate checks, constructive counterexamples, adversarial tests, version history and supporting references. The repository uses an MIT License and an automated Python regression-test matrix.
 
-**Suggested release title:** `v1.1.0 — Verified proof envelopes and correlated-factor radius`
+**Use the documentation in this order:** [`README.md`](README.md) for the problem and first example; [`USAGE.md`](USAGE.md) for integration; [`THEOREM.md`](THEOREM.md) for proofs; [`VALIDATION.md`](VALIDATION.md) for reproducibility; [`SECURITY.md`](SECURITY.md) for threat boundaries; [`PUBLICATION.md`](PUBLICATION.md) for citation and source-history anchors.
 
-**Suggested status:** `PROVED-EXACT / FINITE-CHECKED / NOVELTY-UNVERIFIED`
-
-**Do not advertise:** `solves an unsolved math problem`, `peer-reviewed breakthrough`, `guaranteed million-dollar theorem`, or `polynomial solution of NP-hard general robust routing`.
+Prior academic foundations are credited in [`PRIOR_ART.md`](PRIOR_ART.md). This software publication documents the implementation and proof exposition; it does not represent journal acceptance or priority over previously published graph-optimization theory. For recent executable results, consult [GitHub Actions](https://github.com/shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier/actions).

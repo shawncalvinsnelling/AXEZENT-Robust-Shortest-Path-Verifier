@@ -1,15 +1,13 @@
 # AXEZENT GaugeRail-001: Gauge Quotients and Exact Robust Route Certificates
 
-**Authoring project:** Shawn Calvin Snelling / AXEZENT AI Research  
-**Prepared:** 2026-11-06  
-**Truth label:** **PROVED-EXACT (six self-contained statements under stated hypotheses)**  
-**Novelty label:** **PRIOR-ART OVERLAP / ORIGINALITY NOT ESTABLISHED**  
-**Peer review:** not submitted; no proof-assistant formalization.  
-**Reproducibility:** pure Python 3.10+, exact rational arithmetic. Version 1.1.0 includes adversarial certificate validation.
+**Author:** Shawn Calvin Snelling (AXEZENT AI Research)  
+**Public source publication:** November 6, 2026 · [publication record](PUBLICATION.md)  
+**Version:** 1.2.0 · **License:** MIT  
+**Reproducibility:** Python 3.10+, exact rational arithmetic, executable certificate and adversarial tests.
 
 ## Abstract
 
-We give a self-contained characterization of edge perturbations that are invisible to all source-to-target path comparisons in a finite directed acyclic graph, and an exact single-scenario reduction for the worst regret of a fixed path under independent rational intervals. The structural invariant is the edge-cost vector modulo vertex-potential gradients. We also establish an independently checkable potential certificate, stability-radius formula, invariance under faithful series subdivision, and a separately scoped correlated-factor-box radius identity computed by exhaustive path enumeration. The ingredients have substantial precedent in shortest-path reweighting, path independence, and interval-robust optimization; the paper is a reproducible synthesis, not a verified first discovery.
+We give a self-contained characterization of edge perturbations that are invisible to all source-to-target path comparisons in a finite directed acyclic graph, and an exact single-scenario reduction for the worst regret of a fixed path under independent rational intervals. The structural invariant is the edge-cost vector modulo vertex-potential gradients. We also establish an independently checkable potential certificate, stability-radius formula, invariance under faithful series subdivision, and a separately scoped correlated-factor-box radius identity computed by exhaustive path enumeration. The results are presented with exact assumptions, proofs and corresponding executable tests. Their connections to earlier shortest-path reweighting, path independence and interval-robust optimization research are documented in the related-work section.
 
 ## Definitions and assumptions
 
@@ -286,19 +284,21 @@ If instead the uncertainty grows to \([-2,2]\) on the two-path example, the cand
 
 The sharp uniform radius for the first graph with \(a_e=1\) is \(\rho_*=1\). In particular the rival \(s\to b\to t\) has nominal cost gap 4 and four edges in its symmetric difference with \(P\), which makes \(4/4=1\).
 
-## Limitations and originality
+## Assumptions, related work and implementation limits
 
 1. The **one-scenario reduction** holds for **independently** varying edge residuals. Grouped or correlated errors beyond the gradient field can invalidate it. Theorem 6 covers only a specified correlated **factor box**, by potentially exponential path enumeration.
 2. The characterization of gradient invisibility is on the **s-to-t relevant subgraph**. Perturbations on arcs in no s-to-t route are unobservable for trivial reasons and are not required to be gradients.
 3. Acyclicity permits negative costs without negative-cycle complications. General directed graphs require additional conventions for negative cycles and feasible walks.
-4. Gauge invariance, shortest-path potentials, and adversarial scenarios in interval robust optimization are **known mathematical themes**. We have not established priority over previous proofs of these or their combination. The result is a checkable research artifact; call it *a proven theorem* under the assumptions, **not** *a newly discovered theorem* or *peer-reviewed original mathematics*.
+4. Gauge invariance, shortest-path potentials, and adversarial scenarios in interval robust optimization are **known mathematical themes**. The linked references document relevant foundations. This note offers its own complete exposition and software implementation, without claiming priority over those earlier results or suggesting external peer review.
 5. The input fingerprint is a **consistency check, not source authentication**; the certificate verifier assumes trusted network data. See `SECURITY.md`. The Python tests are finite evidence of implementation correctness. They do **not** replace the general algebraic proofs above and do not constitute Lean/Coq formal verification.
-6. No claim is made that a theorem, GitHub repository, or associated software has a million-dollar valuation.
+6. The examples demonstrate behavior within the specified mathematical models; commercial impact requires independent field evaluation.
 
-## Sources / prior art
+## References and context
 
 - MIT 6.006, *Johnson's Algorithm: Reweighting Shortest Paths* (2020): https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/6027e2a155c948937fdfb93981f7070c_MIT6_006S20_r14.pdf
 - *The Robust Shortest Path Problem with Interval Data* (2001): https://optimization-online.org/2001/08/361/
 - *Robust and Distributionally Robust Shortest Path Problems: A Survey* (2025): https://doi.org/10.1016/j.cor.2025.107096
 - *Computing all shortest passenger routes with a tropical Dijkstra algorithm* (2025): https://doi.org/10.1016/j.ejtl.2025.100163
 - Motivating physics analogy: Barrios Hita et al., *Quantum Mechanics Based on Real Numbers: A Consistent Description*, PRL 136, 240202 (2026), https://doi.org/10.1103/4k13-sdjh . **The present graph theorem is not a result about quantum physics.**
+
+For executable usage, validation instructions and publication-history anchors, see [USAGE.md](USAGE.md), [VALIDATION.md](VALIDATION.md) and [PUBLICATION.md](PUBLICATION.md).
