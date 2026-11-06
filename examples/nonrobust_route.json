@@ -1,0 +1,12 @@
+{
+  "vertices": ["s", "a", "b", "t"],
+  "source": "s",
+  "target": "t",
+  "candidate": ["sa", "at"],
+  "edges": [
+    {"id":"sa", "u":"s", "v":"a", "base":"3", "lo":"-2", "hi":"2"},
+    {"id":"at", "u":"a", "v":"t", "base":"3", "lo":"-2", "hi":"2"},
+    {"id":"sb", "u":"s", "v":"b", "base":"4", "lo":"-2", "hi":"2"},
+    {"id":"bt", "u":"b", "v":"t", "base":"4", "lo":"-2", "hi":"2"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "EXACT_COUNTEREXAMPLE",
+  "robust": false,
+  "candidate": [
+    "sa",
+    "at"
+  ],
+  "candidate_extremal_cost": "10",
+  "shortest_extremal_cost": "4",
+  "worst_regret": "6",
+  "distance_certificate": null,
+  "witness_path": [
+    "sb",
+    "bt"
+  ],
+  "adversarial_costs": {
+    "at": "5",
+    "bt": "2",
+    "sa": "5",
+    "sb": "2"
+  }
+}

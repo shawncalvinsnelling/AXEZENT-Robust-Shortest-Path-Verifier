@@ -1,0 +1,19 @@
+{
+  "author_project": "Shawn Calvin Snelling / AXEZENT AI Research",
+  "limitation": "This is neither certified secure software nor a new established research discovery. MIT license included for author approval.",
+  "name": "AXEZENT GaugeRail-001 \u2014 hardened research release candidate",
+  "prepared": "2026-11-06",
+  "repository": "https://github.com/shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier",
+  "scope": "Independent interval DAG proof certificates; correlated symmetric factor-box sharp radius via exhaustive path enumeration",
+  "status": {
+    "adversarial_mutations": "REJECTED_1024_OF_1024_CHOSEN_CASES",
+    "commercial_value": "NOT_ESTABLISHED",
+    "correlated_random_cases": "EXHAUSTIVE_BOX_CORNERS_180_SMALL_CASES",
+    "external_referee": "NOT_REVIEWED",
+    "novelty": "NOT_ESTABLISHED",
+    "public_git_push": "AUTHORIZED_FOR_PUBLICATION",
+    "six_propositions": "COMPLETE_TEXT_PROOFS_UNDER_STATED_ASSUMPTIONS",
+    "test_groups": "PASS_20_OF_20"
+  },
+  "version": "1.1.0"
+}

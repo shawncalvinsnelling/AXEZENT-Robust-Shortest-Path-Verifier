@@ -1,0 +1,18 @@
+{
+  "exit_code": 0,
+  "file_sha256": {
+    "PRIOR_ART.md": "92102bf5fc1c8b6d7f42065e43b3469dd0f9a0b2c5733f88b7756db77f23b19c",
+    "THEOREM.md": "2d86feb9e6297f86038eb555119ef7d0e50b6be947fea07e0933b962b6b8a0ee",
+    "src/gaugerail.py": "c7051eafebdbfbecc414be70f6763e4c5548ce3671f56cc3aae96a36269bf384",
+    "tests/test_gaugerail.py": "b925c27085beb29fd1b81b4488a02062cfe37457274e9866687ed8b9109f71a3"
+  },
+  "labels": {
+    "economic_value": "NOT_ESTABLISHED",
+    "mathematics": "PROVED_EXACT_BY_TEXT_PROOF",
+    "novelty": "NOT_ESTABLISHED",
+    "test_suite": "PASS"
+  },
+  "project": "AXEZENT GaugeRail-001",
+  "test_stderr": "test_gauge_detected_and_witnessed (test_gaugerail.TestGaugeCharacterization.test_gauge_detected_and_witnessed) ... ok\ntest_random_nongauge_witnesses (test_gaugerail.TestGaugeCharacterization.test_random_nongauge_witnesses) ... ok\ntest_adversarial_random_exhaustive_250 (test_gaugerail.TestGaugeRail.test_adversarial_random_exhaustive_250) ... ok\ntest_examples (test_gaugerail.TestGaugeRail.test_examples) ... ok\ntest_potential_gauge_100 (test_gaugerail.TestGaugeRail.test_potential_gauge_100) ... ok\ntest_radius (test_gaugerail.TestGaugeRail.test_radius) ... ok\ntest_rational_validation (test_gaugerail.TestGaugeRail.test_rational_validation) ... ok\ntest_subdivision (test_gaugerail.TestGaugeRail.test_subdivision) ... ok\ntest_tamper_cert (test_gaugerail.TestGaugeRail.test_tamper_cert) ... ok\ntest_anticorrelated_paths_no_single_favored_scenario (test_security_correlated.CorrelatedFactorTests.test_anticorrelated_paths_no_single_favored_scenario) ... ok\ntest_coupling_cancels_and_radius_infinite (test_security_correlated.CorrelatedFactorTests.test_coupling_cancels_and_radius_infinite) ... ok\ntest_invalid_factors_and_path_cap (test_security_correlated.CorrelatedFactorTests.test_invalid_factors_and_path_cap) ... ok\ntest_long_chain_iterative_enumeration (test_security_correlated.CorrelatedFactorTests.test_long_chain_iterative_enumeration) ... ok\ntest_random_small_graphs_vs_exhaustive_factor_corners (test_security_correlated.CorrelatedFactorTests.test_random_small_graphs_vs_exhaustive_factor_corners) ... ok\ntest_symmetric_box_exact_radius (test_security_correlated.CorrelatedFactorTests.test_symmetric_box_exact_radius) ... ok\ntest_bad_candidate_path_is_not_accepted (test_security_correlated.MaliciousCertificateTests.test_bad_candidate_path_is_not_accepted) ... ok\ntest_changed_network_cannot_reuse_certificate (test_security_correlated.MaliciousCertificateTests.test_changed_network_cannot_reuse_certificate) ... ok\ntest_forged_claim_ignoring_candidate_metadata_rejected (test_security_correlated.MaliciousCertificateTests.test_forged_claim_ignoring_candidate_metadata_rejected) ... ok\ntest_good_certificate_and_modified_fields (test_security_correlated.MaliciousCertificateTests.test_good_certificate_and_modified_fields) ... ok\ntest_nonrobust_path_cannot_forge_proof (test_security_correlated.MaliciousCertificateTests.test_nonrobust_path_cannot_forge_proof) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 1.512s\n\nOK\n",
+  "verified_with": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+}

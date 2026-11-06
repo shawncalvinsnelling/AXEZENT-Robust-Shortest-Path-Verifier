@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this release with its actual publication date and persistent repository URL once published."
+title: "AXEZENT GaugeRail-001: Exact Robust-Route Certificates and Correlated-Factor Box Analysis"
+authors:
+  - family-names: Snelling
+    given-names: Shawn Calvin
+version: 1.1.0
+license: MIT
+type: software
+abstract: "Exact rational DAG routing verification with source-to-target potential invariance, adversarial certificate tests, and finite enumeration for low-dimensional correlated box uncertainty. No novelty claim."
+repository-code: "https://github.com/shawncalvinsnelling/AXEZENT-Robust-Shortest-Path-Verifier"

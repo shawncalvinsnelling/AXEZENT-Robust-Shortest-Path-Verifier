@@ -1,0 +1,10 @@
+{
+  "vertices": 2500,
+  "arcs": 4996,
+  "robust": true,
+  "worst_regret": "0",
+  "certificate_entries": 2500,
+  "analyze_seconds_observed": 0.041,
+  "verify_seconds_observed": 0.0128,
+  "disclaimer": "Observed times are this runner only; no universal performance claim."
+}

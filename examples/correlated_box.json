@@ -1,0 +1,12 @@
+{
+  "model": "c_e = base_e + sum_j coupling[e][j] * xi_j; |xi_j| <= radius * factor_amplitudes[j]",
+  "coupling": {
+    "sa": ["1", "0"],
+    "at": ["1", "0"],
+    "sb": ["0", "-1"],
+    "bt": ["0", "-1"],
+    "st": ["0", "0"]
+  },
+  "factor_amplitudes": ["1", "1/2"],
+  "radius": "1"
+}

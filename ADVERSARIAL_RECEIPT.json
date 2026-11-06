@@ -1,0 +1,28 @@
+{
+  "attack_categories": {
+    "alter_candidate": 64,
+    "alter_fingerprint": 64,
+    "bad_path": 64,
+    "bad_target_distance": 64,
+    "changed_network": 64,
+    "extra_distance": 64,
+    "fake_authority_field": 64,
+    "fake_cost": 64,
+    "fake_distance": 64,
+    "fake_optimum": 64,
+    "fake_regret": 64,
+    "fake_robust_flag": 64,
+    "fake_status": 64,
+    "fake_witness": 64,
+    "missing_distance": 64,
+    "remove_fingerprint": 64
+  },
+  "attacks_submitted": 1024,
+  "false_acceptances": 0,
+  "invalid_certificates_rejected": 1024,
+  "limits": "Chosen attack mutations only; not a claim of unforgeability, authenticity, or enterprise security certification",
+  "name": "AXEZENT GaugeRail-001 v1.1.0 adversarial stress",
+  "seed": 20261106,
+  "unexpected_acceptances": [],
+  "valid_certificate_accepted": true
+}

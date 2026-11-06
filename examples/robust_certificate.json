@@ -1,0 +1,20 @@
+{
+  "status": "PROVED_EXACT_CERTIFICATE",
+  "graph_sha256": "e8b4d5ec8d02c5d682af814ad9688664a7cbac9a18869a55b661c275ebc3de6c",
+  "robust": true,
+  "candidate": [
+    "sa",
+    "at"
+  ],
+  "candidate_extremal_cost": "13/2",
+  "shortest_extremal_cost": "13/2",
+  "worst_regret": "0",
+  "distance_certificate": {
+    "a": "13/4",
+    "b": "19/4",
+    "s": "13/2",
+    "t": "0"
+  },
+  "witness_path": null,
+  "adversarial_costs": null
+}
